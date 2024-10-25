@@ -13,7 +13,7 @@ export default function Home() {
       <div className="stats">
         <div className="stat">
           <h2>0</h2>
-          <p>cases opened in the last month</p>
+          <p>Cases opened in the last month</p>
         </div>
         <div className="stat">
           <h2>0</h2>
