@@ -10,6 +10,8 @@
     "test": "mocha test"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.4.8",
+    "framer-motion": "^11.11.10",
     "next": "15.0.0",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020"
