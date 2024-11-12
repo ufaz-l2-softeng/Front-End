@@ -184,3 +184,7 @@ main {
 .white span {
   color: white !important;
 }
+
+.white button {
+  outline: none;
+}
