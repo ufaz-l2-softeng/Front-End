@@ -188,3 +188,61 @@ main {
 .white button {
   outline: none;
 }
+
+.cases-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #0b0a1f;
+}
+
+/* Individual case cell */
+.case-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Case image styling */
+.case-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Price button styling */
+.price-button {
+  /* font-size: 14px;
+  color: #ffffff;
+  background-color: #3331bd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px; */
+  position: absolute;
+  inset: 0;
+}
+
+
+/* Underline styling */
+.underlinender {
+  width: 80%;
+  height: 3px;
+  background-color: #3331bd;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for underline */
+.case-cell:hover .underlinender {
+  background-color: #ffffff;
+}
+
+.case-cell {
+  transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
+
+.case-cell:hover {
+  transform: scale(1.2); /* Scale to 1.2x on hover */
