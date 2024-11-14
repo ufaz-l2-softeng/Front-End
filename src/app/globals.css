@@ -3,184 +3,192 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {
-    width: 40px; /* Уменьшено */
+  width: 40px; /* Уменьшено */
 }
 
 main {
-    font-family: 'Nunito', sans-serif;
-    background-color: #0b0a1f;
-    color: #dfdfed;
+  font-family: "Nunito", sans-serif;
+  background-color: #0b0a1f;
+  color: #dfdfed;
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 15px; /* Уменьшено */
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Уменьшено */
 }
 
 .menu li a {
-    color: #dfdfed;
-    text-decoration: none;
-    font-size: 16px; /* Уменьшено */
+  color: #dfdfed;
+  text-decoration: none;
+  font-size: 16px; /* Уменьшено */
 }
 
 .user-info {
-    font-size: 14px; /* Уменьшено */
-    color: #dfdfed;
+  font-size: 14px; /* Уменьшено */
+  color: #dfdfed;
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px; /* Уменьшено */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px; /* Уменьшено */
 }
 
 .big-image {
-    width: 40%; /* Уменьшено */
-    margin-right: 20px;
+  width: 40%; /* Уменьшено */
+  margin-right: 20px;
 }
 
 .hero-text {
-    width: 50%;
-    text-align: left;
-    margin-left: 20px;
+  width: 50%;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .hero-text h1 {
-    font-size: 32px; /* Уменьшено */
-    font-weight: bold;
-    color: #dfdfed;
+  font-size: 32px; /* Уменьшено */
+  font-weight: bold;
+  color: #dfdfed;
 }
 
 .hero-text p {
-    font-size: 14px; /* Уменьшено */
-    color: #dfdfed;
+  font-size: 14px; /* Уменьшено */
+  color: #dfdfed;
 }
 
 .stats {
-    display: flex;
-    justify-content: center;
-    gap: 40px; /* Уменьшено */
-    margin-top: 20px; /* Уменьшено */
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Уменьшено */
+  margin-top: 20px; /* Уменьшено */
 }
 
 .stat {
-    text-align: center;
+  text-align: center;
 }
 
 .stat h2 {
-    font-size: 28px; /* Уменьшено */
-    color: #dfdfed;
+  font-size: 28px; /* Уменьшено */
+  color: #dfdfed;
 }
 
 .stat p {
-    font-size: 12px; /* Уменьшено */
-    color: #dfdfed;
+  font-size: 12px; /* Уменьшено */
+  color: #dfdfed;
 }
 
 /* Free Case Section */
 .free-case-section {
-    background-color: #293366; /* Updated rounded background color */
-    padding: 30px;
-    border-radius: 25px; /* Rounded effect */
-    margin: 40px auto;
-    width: 90%; /* Adjust this for responsiveness */
-  }
-  
-  .free-case-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: nowrap; /* Prevents wrapping and ensures elements stay in line */
-  }
-  
-  .free-case-text h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #dfdfed; /* Light gray */
-  }
-  
-  .free-case-text p {
-    font-size: 16px;
-    color: #dfdfed;
-  }
-  
-  .free-case-image img {
-    width: 400px; /* Doubled the size of the image */
-  }
-  
-  .free-case-button {
-    background-color: #4a3fff;
-    color: white;
-    padding: 7px 14px; /* Reduced the padding to make it smaller */
-    text-decoration: none;
-    font-size: 12px; /* Reduced font size */
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .free-case-button:hover {
-    background-color: #3331bd; /* Slightly darker blue on hover */
-  }
+  background-color: #293366; /* Updated rounded background color */
+  padding: 30px;
+  border-radius: 25px; /* Rounded effect */
+  margin: 40px auto;
+  width: 90%; /* Adjust this for responsiveness */
+}
+
+.free-case-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap; /* Prevents wrapping and ensures elements stay in line */
+}
+
+.free-case-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #dfdfed; /* Light gray */
+}
+
+.free-case-text p {
+  font-size: 16px;
+  color: #dfdfed;
+}
+
+.free-case-image img {
+  width: 400px; /* Doubled the size of the image */
+}
+
+.free-case-button {
+  background-color: #4a3fff;
+  color: white;
+  padding: 7px 14px; /* Reduced the padding to make it smaller */
+  text-decoration: none;
+  font-size: 12px; /* Reduced font size */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.free-case-button:hover {
+  background-color: #3331bd; /* Slightly darker blue on hover */
+}
 /* Conditions Section */
 .conditions-section {
-    padding: 40px;
-    margin: 50px auto;
-    background-color: #0b0a1f; /* Same navy background as the page */
-    color: #dfdfed;
-  }
-  
-  .conditions-header h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: #dfdfed; /* Light gray */
-  }
-  
-  .conditions-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-  }
-  
-  .conditions-icons img {
-    width: 250px; /* Adjust this to fit the design */
-  }
-  
-  .conditions-details {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    grid-gap: 30px; /* Space between grid items */
-    flex: 1;
-  }
-  
-  .condition-item h3 {
-    font-size: 22px;
-    font-weight: bold;
-    color: #dfdfed; /* Light gray */
-  }
-  
-  .condition-item p {
-    font-size: 16px;
-    color: #dfdfed;
-  }
-/* Container for all cases */
+  padding: 40px;
+  margin: 50px auto;
+  background-color: #0b0a1f; /* Same navy background as the page */
+  color: #dfdfed;
+}
+
+.conditions-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #dfdfed; /* Light gray */
+}
+
+.conditions-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.conditions-icons img {
+  width: 250px; /* Adjust this to fit the design */
+}
+
+.conditions-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-gap: 30px; /* Space between grid items */
+  flex: 1;
+}
+
+.condition-item h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #dfdfed; /* Light gray */
+}
+
+.condition-item p {
+  font-size: 16px;
+  color: #dfdfed;
+}
+
+.white span {
+  color: white !important;
+}
+
+.white button {
+  outline: none;
+}
+
 .cases-container {
   display: flex;
   flex-direction: row;
@@ -238,4 +246,3 @@ main {
 
 .case-cell:hover {
   transform: scale(1.2); /* Scale to 1.2x on hover */
-}
