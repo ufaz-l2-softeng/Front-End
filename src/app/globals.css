@@ -182,7 +182,7 @@ main {
 }
 
 .white span {
-  color: white !important;
+  border-color: white !important;
 }
 
 .white button {
@@ -226,7 +226,6 @@ main {
   inset: 0;
 }
 
-
 /* Underline styling */
 .underlinender {
   width: 80%;
@@ -246,3 +245,4 @@ main {
 
 .case-cell:hover {
   transform: scale(1.2); /* Scale to 1.2x on hover */
+}
