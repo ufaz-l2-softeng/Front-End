@@ -1,5 +1,4 @@
 import React from "react";
-import { getAllByClassName } from "@testing-library/dom";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import Cases from "./page";

@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styles from "./style.module.css";
 import { Button } from "@nextui-org/react";
 import { colors } from "@/utils/constants";

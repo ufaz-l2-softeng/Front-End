@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 const Header = () => {
   const path = usePathname();
-  let name = "Nazim";
+  const name = "Nazim";
   return (
     <header
       data-testid="header"

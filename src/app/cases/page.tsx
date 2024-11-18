@@ -1,6 +1,5 @@
 import React from "react";
 import Case from "@/components/Case";
-import Link from "next/link";
 
 export default function Cases() {
   const cases = [
