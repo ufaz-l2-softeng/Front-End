@@ -8,11 +8,13 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
+    "types": ["jest", "@testing-library/jest-dom"],
     "plugins": [
       {
         "name": "next"
@@ -28,7 +30,13 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/test/test.js",
-    "src/app/cases/[id]/page.jsx"
+    "src/app/cases/[id]/page.jsx",
+    "src/utils/constants.test.js",
+    "src/utils/constants.js",
+    "src/components/InventoryFilter.test.jsx",
+    "src/app/layout.test.jsx",
+    "src/app/cases/page.test.jsx",
+    "src/components/Header.test.jsx"
   ],
   "exclude": ["node_modules"]
 }

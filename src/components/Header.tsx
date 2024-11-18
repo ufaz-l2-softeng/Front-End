@@ -4,11 +4,14 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 
-const Header = ({ name }: { name: String }) => {
+const Header = () => {
   const path = usePathname();
-
+  let name = "Nazim";
   return (
-    <header className="flex absolute w-full h-16 bg-gray-900 px-16 border-b-blue-600 border-b-4">
+    <header
+      data-testid="header"
+      className="flex absolute w-full h-16 bg-gray-900 px-16 border-b-blue-600 border-b-4"
+    >
       <div className="border-r-blue-800 border-r-2 pr-8">
         <Link href={"/"}>
           <Image src={"/logo.png"} alt="logo" width={80} height={80} />
