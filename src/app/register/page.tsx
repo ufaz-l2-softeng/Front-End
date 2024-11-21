@@ -4,6 +4,7 @@ import "./style.css";
 import Image from "next/image";
 import { Button, Input } from "@nextui-org/react";
 import Link from "next/link";
+import axios from "axios";
 
 const RegisterPage = () => {
   const [username, setUsername] = useState("");
@@ -26,7 +27,11 @@ const RegisterPage = () => {
           username,
           password,
         };
-        console.log(userDatas);
+        const response = axios.post(
+          "https://cs-casino-2aa0bc784bd4.herokuapp.com/register",
+          userDatas
+        );
+        console.log(response);
       } else {
         setIsInvalid(true);
       }
